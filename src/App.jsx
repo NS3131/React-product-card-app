@@ -7,7 +7,7 @@ import Image from './components/image.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 
-const firstName = "Ava"; // Change to "" to test fallback
+const firstName = "There"; // Change to "" to test fallback
 
 const App = () => {
   return (
@@ -26,7 +26,7 @@ const App = () => {
             <h3>Hello, {firstName ? firstName : "there"}!</h3>
             {firstName && (
               <img
-                src="https://via.placeholder.com/150.png?text=👋+Hi+There!"
+                src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif"
                 alt="Greeting"
                 className="rounded mt-3"
               />

@@ -14,4 +14,17 @@ body {
 h2 {
   font-weight: bold;
 }
+p {
+  color: #555;
+}
+.product-img {
+  max-width: 50%;     /* responsive */
+  max-height: 150px;   /* keep it smaller */
+  object-fit: contain; /* prevent distortion */
+  display: block;
+  margin: 0 auto;      /* center the image */
+  border-radius: 10px; /* optional: rounded corners */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* optional: shadow */
+}
+
 
